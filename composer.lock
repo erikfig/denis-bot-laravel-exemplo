@@ -4,46 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b6f6c91f2f533b695c5931b9f1fee07d",
+    "content-hash": "7ebe65b42a9164d581b9ea15f26f0d04",
     "packages": [
-        {
-            "name": "denisbao/facebook-bot-sdk",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/denisbao/facebook-bot-sdk.git",
-                "reference": "afd4b70a1b7d0c84c0664dd8bd50b8d6e4dcc51c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/denisbao/facebook-bot-sdk/zipball/afd4b70a1b7d0c84c0664dd8bd50b8d6e4dcc51c",
-                "reference": "afd4b70a1b7d0c84c0664dd8bd50b8d6e4dcc51c",
-                "shasum": ""
-            },
-            "require": {
-                "denisbao/facebook-bot-sdk": "dev-master",
-                "guzzlehttp/guzzle": "^6.3",
-                "php": ">=7.1",
-                "phpunit/phpunit": "^7.2"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "CodeBot\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Denis Bao Motta",
-                    "email": "denis.tpd@gmail.com"
-                }
-            ],
-            "time": "2018-09-10T20:43:20+00:00"
-        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
@@ -357,6 +319,45 @@
                 "validator"
             ],
             "time": "2018-08-16T20:49:45+00:00"
+        },
+        {
+            "name": "erik/denis-facebook-bot-sdk",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erikfig/facebook-bot-sdk-1.git",
+                "reference": "c804970b36aa3a5b6176ee2e7344c8250aaaf21c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erikfig/facebook-bot-sdk-1/zipball/c804970b36aa3a5b6176ee2e7344c8250aaaf21c",
+                "reference": "c804970b36aa3a5b6176ee2e7344c8250aaaf21c",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.3",
+                "php": ">=7.1",
+                "phpunit/phpunit": "^7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CodeBot\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Denis Bao Motta",
+                    "email": "denis.tpd@gmail.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/erikfig/facebook-bot-sdk-1/tree/master"
+            },
+            "time": "2018-09-11T16:35:49+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -4327,7 +4328,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "denisbao/facebook-bot-sdk": 20
+        "erik/denis-facebook-bot-sdk": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
