@@ -326,12 +326,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/erikfig/facebook-bot-sdk-1.git",
-                "reference": "c804970b36aa3a5b6176ee2e7344c8250aaaf21c"
+                "reference": "6cbf4fdeeab84442569ab8c40cf309064d0727b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erikfig/facebook-bot-sdk-1/zipball/c804970b36aa3a5b6176ee2e7344c8250aaaf21c",
-                "reference": "c804970b36aa3a5b6176ee2e7344c8250aaaf21c",
+                "url": "https://api.github.com/repos/erikfig/facebook-bot-sdk-1/zipball/6cbf4fdeeab84442569ab8c40cf309064d0727b2",
+                "reference": "6cbf4fdeeab84442569ab8c40cf309064d0727b2",
                 "shasum": ""
             },
             "require": {
@@ -357,7 +357,7 @@
             "support": {
                 "source": "https://github.com/erikfig/facebook-bot-sdk-1/tree/master"
             },
-            "time": "2018-09-11T16:35:49+00:00"
+            "time": "2018-09-11T16:55:05+00:00"
         },
         {
             "name": "erusev/parsedown",
